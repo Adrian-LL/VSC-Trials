@@ -1,5 +1,5 @@
 # VSC-Trials
-## My trials with setting Visual Studio Code for C++ 
+## My trials in setting Visual Studio Code for C++ learning 
 
 The initial idea was to use VSC in Windows for C++ (re)learning, with as little as possible installations.
 Of course this got out of control :-)
