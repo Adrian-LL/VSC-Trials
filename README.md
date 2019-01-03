@@ -2,24 +2,22 @@
 ## (Overview of) My Trials in Setting Visual Studio Code for C++ learning 
 
 
-The initial idea was to use VSC in Windows for C++ (re)learning, with as little as possible installations.
+The initial idea was to use VSC in Windows for C++ (re)learning, with as little as possible installations and/or configurations.
 Of course this got out of control :-)
 
-See my **gist(s)** at https://gist.github.com/Adrian-LL.
+So I tried to make some "how-to" articles inspired by my hardships.
 
-> (Bear with me, I will move these back to Github, as they are not really gists...)
-
-* [Part 1 - Windows 10, MSYS / MinGW](https://gist.github.com/Adrian-LL/3a7d676bacbcfdd9671d484cc86c5f76) 
-  * The initial idea. I tried MinGW, settled for MSYS2.
-* [Part 2 - Windows + WSL](https://gist.github.com/Adrian-LL/5a0380f3576a23829a4333081085766a)
-  * I tried to use WSL tools (i.e. gcc / g++ and so on) with VSC in Windows
-* [Part 3 - Installing VSC as graphical application under WSL, console and (unfortunate) conclusions](https://gist.github.com/Adrian-LL/d1feddc3db97a7b19af46b8aa934f39f)
-  * Tried to install `code` inside WSL (actually not tried, but managed). Working with it is another story.
-  * There are some considerations about using a better console and X Server
+* [Part 1 - Windows 10, MSYS / MinGW](https://github.com/Adrian-LL/vscode-cpp-windows) 
+  * The initial idea. I tried MinGW, settled for MSYS2 (that, of course included MinGW).
+* [Part 2 - Windows + WSL](https://github.com/Adrian-LL/vscode-cpp-win-wsl)
+  * I tried to use WSL tools (i.e. gcc / g++ and so on) instead of MinGW with VSC running in Windows
+* [Part 3 - Installing VSC as graphical application under WSL, console and (unfortunate) conclusions](https://github.com/Adrian-LL/vscode-cpp-wsl-graphical-apps)
+  * Tried to install `code` inside WSL (actually not tried, but managed). Working with it is altogether another story.
+  * There are some personal considerations about using a better console and X Server
   * `sublime-text` works!
   
 ## Other things
-### Good versions for Ubuntu:
+### Good versions of configuration files for Ubuntu (i.e not WSL):
 * tasks.json
 * launch.json
 
